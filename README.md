@@ -161,7 +161,7 @@ An interactive quiz application with GUI:
 - Score tracking
 - Modern UI design
 
-### Web Scraping Projects (`Web Scrapping/`)
+### Web Scraping Projects (`Web Scraping/`)
 Collection of web scraping examples:
 - Hacker News scraping for top articles
 - Beautiful Soup usage examples
