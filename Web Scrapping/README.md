@@ -9,7 +9,7 @@ This directory contains multiple web scraping projects that showcase different a
 ## 📁 Project Structure
 
 ```
-Web Scrapping/
+Web Scraping/
 ├── main.py              # Hacker News scraper
 ├── website.html         # Local HTML file for practice
 ├── Spotify Playlist/    # Spotify playlist creation project
