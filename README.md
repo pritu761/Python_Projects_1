@@ -16,7 +16,7 @@ This repository contains a comprehensive collection of Python learning projects 
 - **`quizzler-app-start/`** - GUI quiz application with trivia questions
 
 ### 🌐 Web Applications & APIs
-- **`Web Scrapping/`** - Collection of web scraping projects
+- **`Web Scraping/`** - Collection of web scraping projects
 - **`kanye-quotes-start/`** - API-powered Kanye West quotes app
 - **`issoverhead-start/`** - ISS tracking application
 - **`stock-news-normal-start/`** - Stock news monitoring system
