@@ -27,7 +27,7 @@ while game_is_on:
         if car.distance(player) < 20:
             scoreboard.game_over()
             game_is_on = False
-    if player.ycor() == 280:
+    if player.ycor() >= 280:
         player.goto(0, -280)
         scoreboard.level_up()
         car_manager.level_up()

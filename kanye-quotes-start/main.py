@@ -8,7 +8,7 @@ def get_quote():
     
     data = response.json()
     quotes = data["quote"]
-    canvas.config(quote_text,text=quotes)
+    canvas.itemconfig(quote_text, text=quotes)
     
 
 
