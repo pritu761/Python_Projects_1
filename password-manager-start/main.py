@@ -34,6 +34,7 @@ def generate_password():
     for char in password_list:
         password += char
 
+    password_entry.delete(0, END)  # Clear existing password first
     password_entry.insert(0, password)
     pyperclip.copy(password)
 
@@ -52,8 +53,8 @@ def save():
             with open("data.txt", "a") as data_file:
                 data_file.write(f"{website}:{password}:{email}\n")
                 website_entry.delete(0, END)
+                password_entry.delete(0, END)
                 email_entry.delete(0, END)
-                data_file.close()
 
 
 # ---------------------------- UI SETUP ------------------------------- #
